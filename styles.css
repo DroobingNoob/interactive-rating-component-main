@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    /* item-align: center; */
+    margin: 0 50px;
+    font-family: 'Overpass';
+}
+
+.cont1{
+    
+    display: none;
+}
+
+.cent{
+    text-align: center;
+}
+
+.cont0{
+    display: none;  
+    
+}
+
+.container{
+    background-image: linear-gradient(to bottom left, hsl(213, 19%, 18%), hsl(213, 19%, 10%));
+    /* margin: 150px 100px; */
+    padding: 23px;
+    border-radius: 20px;
+    margin: 150px auto;
+    width: 300px;
+}
+
+.star{
+ background-color: hsl(213, 19%, 22%);
+  padding: 7px;
+ border-radius: 15px;
+ 
+}
+
+
+
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 26px;
+    margin-top: 14px;
+    margin-bottom: 2px;
+}
+
+p{
+  font-size: 12px;
+  color: hsl(217, 12%, 63%);
+  margin-bottom: 15px;
+}
+
+.numbers{
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    /* justify-content: center; */
+    gap: 22px;
+    text-align: center;
+}
+
+.num{
+    background-color:hsl(213, 19%, 22%) ;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    color: hsl(217, 12%, 63%);
+    border: 0;
+    cursor: pointer;
+    /* text-align: center; */
+    /* padding: 2px ; */
+}
+
+.num:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:white ;
+}
+
+.num-chosen{
+    color: white;
+    background-color: hsl(217, 12%, 63%);
+}
+
+.submit{
+    margin-top: 23px;
+    padding:7px 120px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.submit:hover{
+    background-color: white;
+    color:hsl(25, 97%, 53%) ;
+}
+
+.rating{
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 22%);
+    display: inline-block;
+    padding: 8px;
+    border-radius: 15px;
+    margin-top: 14px;
+}
+
+@media(min-width: 550px){
+    .container{
+        width:300px;
+    }
+}
